@@ -29,7 +29,7 @@ const About = () => {
               SDIT Muhammadiyah Bireuen
             </h1>
             <p className="font-bold">
-              Assalamu'alaikum Warahmatullah Wabarakatuh
+              Assalamu&#39;alaikum Warahmatullah Wabarakatuh
             </p>
             <p className="text-secondary">
               <span className="text-primary font-bold">

@@ -2,8 +2,6 @@
 
 import { useEffect, useRef, useState } from "react";
 import Nav from "../layouts/Nav";
-import NavMobile from "../composites/NavMobile";
-import Logo from "../composites/Logo";
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState<boolean>(true);

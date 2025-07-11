@@ -4,10 +4,7 @@ import Features from "@/components/sections/Features";
 import Footer from "@/components/sections/Footer";
 import Header from "@/components/sections/Header";
 import Hero from "@/components/sections/Hero";
-import Informations from "@/components/sections/Informations";
-import Networking from "@/components/sections/Networking";
 import Stats from "@/components/layouts/Stats";
-import Teachers from "@/components/sections/Teachers";
 import Bottom from "@/components/sections/Bottom";
 
 const Home = () => {
@@ -19,9 +16,6 @@ const Home = () => {
       <Features />
       <About />
       <Stats />
-      {/* <Teachers />
-      <Informations />
-      <Networking /> */}
       <Footer />
       <Bottom />
     </div>

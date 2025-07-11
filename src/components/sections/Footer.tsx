@@ -1,5 +1,4 @@
 import React from "react";
-import Socials from "../composites/Socials";
 import InfoLine from "../composites/InfoLine";
 import { RiMailFill, RiPhoneFill } from "react-icons/ri";
 import Image from "next/image";

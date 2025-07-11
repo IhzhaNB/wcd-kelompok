@@ -19,7 +19,7 @@ const NavMobile = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
-    <Sheet>
+    <Sheet open={isOpen} onOpenChange={setIsOpen}>
       <SheetTrigger
         className="text-white text-3xl grid place-items-center"
         onClick={() => setIsOpen(true)}
